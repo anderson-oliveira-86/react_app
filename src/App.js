@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
       <p>Divisão {50 / 2}</p>
       <p>Soma: {sum(2,3)}</p>
       <img src={url} alt='Minha Imagem'/>
+      <HelloWorld/>
     </div>
   );
 }
